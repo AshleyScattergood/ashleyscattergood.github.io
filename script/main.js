@@ -43,7 +43,7 @@ $("#send-message").on("click", function(e) {
 	$("#form-success").removeClass("hide");
 	$("#form-success").addClass("show");
     $.ajax({
-        url: "//formspree.io/garwil@gmail.com", 
+        url: "//formspree.io/fallen_angel_dymphna@hotmail.com", 
         method: "POST",
         data: {message: message},
         dataType: "json"
